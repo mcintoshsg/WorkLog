@@ -1,0 +1,20 @@
+
+Make sure your script runs without errors. Catch exceptions and report errors to the user in a meaningful way.
+As a user of the script, I should be prompted with a menu to choose whether to add a new entry or lookup previous entries.
+As a user of the script, if I choose to enter a new work log, I should be able to provide a task name,
+a number of minutes spent working on it, and any additional notes I want to record.
+As a user of the script, if I choose to find a previous entry, I should be presented with four options:
+
+    find by date
+    find by time spent
+    find by exact search
+    find by pattern
+
+Note:
+
+    When finding by date, I should be presented with a list of dates with entries and be able to choose one to see entries from.
+    When finding by time spent, I should be allowed to enter the number of minutes a task took and be able to choose one to see entries from.
+    When finding by an exact string, I should be allowed to enter a string and then be presented with entries containing that string in the task name or notes.
+    When finding by a pattern, I should be allowed to enter a regular expression and then be presented with entries matching that pattern in their task name or notes.
+
+When displaying the entries, the entries should be displayed in a readable format with the date, task name, time spent, and notes information.
